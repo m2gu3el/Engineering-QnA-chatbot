@@ -1,0 +1,51 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hello", "Hey", "Greetings"],
+            "responses": ["Hello! How can I assist you with your college admission?", "Hi there! How can I help you today?", "Welcome! How can I support you in your college journey?"],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye", "Farewell", "See you later", "Bye"],
+            "responses": ["Goodbye! If you have more questions, feel free to ask.", "Farewell! If you need further assistance, don't hesitate to reach out.", "See you later! Best of luck with your college endeavors."],
+            "context_set": ""
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Appreciate it"],
+            "responses": ["You're welcome! If you have more questions, feel free to ask.", "Happy to help! If there's anything else, just let me know.", "Glad I could assist you! If you need further information, feel free to inquire."]
+        },
+        {
+            "tag": "admission_requirements",
+            "patterns": ["What are the admission requirements?", "Tell me about admission criteria", "What do I need to get admitted?"],
+            "responses": ["Admission requirements vary by program. You can find specific information on our website or ask me about a particular program.", "Admission criteria depend on the program you're interested in. You can check our website for detailed information or specify the program for more details."],
+            "context_set": ""
+        },
+        {
+            "tag": "application_process",
+            "patterns": ["How do I apply?", "Tell me about the application process", "What steps are involved in applying?"],
+            "responses": ["The application process involves several steps, including submitting an online application, providing transcripts, and possibly letters of recommendation. Would you like more detailed information on a specific step or program?", "To apply, you need to complete an online application, submit necessary documents, and, in some cases, attend an interview. Let me know if you have questions about a specific part of the process."],
+            "context_set": ""
+        },
+        {
+            "tag": "deadlines",
+            "patterns": ["What are the application deadlines?", "When is the deadline to apply?", "Tell me about application timelines"],
+            "responses": ["Application deadlines vary by program. You can find detailed information on our website or specify the program you're interested in for more accurate details.", "Application deadlines depend on the program. Check our website or let me know which program you're interested in for specific deadline information."],
+            "context_set": ""
+        },
+        {
+            "tag": "financial_aid",
+            "patterns": ["Tell me about financial aid", "How can I apply for scholarships?", "What financial support is available?"],
+            "responses": ["We offer various financial aid options, including scholarships, grants, and loans. You can find more information on our website or specify the type of financial aid you're interested in for personalized details.", "Financial aid options include scholarships, grants, and work-study programs. Visit our website for detailed information or let me know if you have specific questions."],
+            "context_set": ""
+        },
+        {
+            "tag": "contact_admissions",
+            "patterns": ["How can I contact admissions?", "Tell me the contact details for admissions", "Can I speak to an admissions counselor?"],
+            "responses": ["You can reach our admissions office by phone at [phone number] or by email at [email address]. Admissions counselors are available to assist you during office hours. Feel free to contact us for any questions or concerns.", "To get in touch with admissions, you can call us at [phone number] or email us at [email address]. Our admissions counselors are here to help you with any inquiries."],
+            "context_set": ""
+        }
+    ]
+}
